@@ -5,7 +5,7 @@
   "scripts": {
     "check:type": "tsc",
     "clear": "rimraf ./.next && rimraf ./out ",
-    "dev": "npm install --save-dev typescript && next dev",
+    "dev": "next dev",
     "dev:styles": "cross-env STYLE_DEBUG=STYLE npm run dev",
     "prebuild": "npm run clear",
     "build": "next build",
